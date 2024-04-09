@@ -1,0 +1,559 @@
+[0m17:24:52.954537 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10646d6d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10648e8d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10648e630>]}
+
+
+============================== 17:24:52.959537 | 42983958-9e41-403b-b433-9427b8fe5f90 ==============================
+[0m17:24:52.959537 [info ] [MainThread]: Running with dbt=1.7.11
+[0m17:24:52.960060 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': '/Users/temitayo/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt init ae_bootcamp', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m17:24:52.960910 [info ] [MainThread]: A project called ae_bootcamp already exists here.
+[0m17:24:52.993645 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 0.085472375, "process_user_time": 1.378558, "process_kernel_time": 0.164225, "process_mem_max_rss": "99024896", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m17:24:52.994383 [debug] [MainThread]: Command `dbt init` succeeded at 17:24:52.994252 after 0.09 seconds
+[0m17:24:52.994750 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1060d6780>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1020f2a50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1057a9040>]}
+[0m17:24:52.995080 [debug] [MainThread]: Flushing usage events
+[0m17:25:42.589756 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12014a7e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1201927b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x120192510>]}
+
+
+============================== 17:25:42.594764 | 83e9c071-a228-479e-88c1-c5f2a05085dc ==============================
+[0m17:25:42.594764 [info ] [MainThread]: Running with dbt=1.7.11
+[0m17:25:42.595328 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': '/Users/temitayo/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt init ae_bootcamp', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m17:25:42.596227 [debug] [MainThread]: Starter project path: /Users/temitayo/Documents/My_docs/AE_Udemy_course/Practice/dbt_env/lib/python3.12/site-packages/dbt/include/starter_project
+[0m17:25:42.602439 [info ] [MainThread]: 
+Your new dbt project "ae_bootcamp" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:25:42.602793 [info ] [MainThread]: Setting up your profile.
+[0m17:29:45.243557 [info ] [MainThread]: Profile ae_bootcamp written to /Users/temitayo/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m17:29:45.249693 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 242.70152, "process_user_time": 2.893848, "process_kernel_time": 1.278246, "process_mem_max_rss": "178094080", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m17:29:45.250606 [debug] [MainThread]: Command `dbt init` succeeded at 17:29:45.250417 after 242.70 seconds
+[0m17:29:45.251296 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102342a50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x14bbceb10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x14ade1eb0>]}
+[0m17:29:45.252057 [debug] [MainThread]: Flushing usage events
+[0m17:29:55.924837 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106e45f40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106e66900>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106e66690>]}
+
+
+============================== 17:29:55.929921 | 8be577b6-77b9-4109-87c1-6864c8021a51 ==============================
+[0m17:29:55.929921 [info ] [MainThread]: Running with dbt=1.7.11
+[0m17:29:55.930454 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/temitayo/.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m17:29:55.930972 [info ] [MainThread]: dbt version: 1.7.11
+[0m17:29:55.931223 [info ] [MainThread]: python version: 3.12.0
+[0m17:29:55.931453 [info ] [MainThread]: python path: /Users/temitayo/Documents/My_docs/AE_Udemy_course/Practice/dbt_env/bin/python3.12
+[0m17:29:55.931670 [info ] [MainThread]: os info: macOS-14.4.1-arm64-arm-64bit
+[0m17:29:56.751898 [info ] [MainThread]: Using profiles dir at /Users/temitayo/.dbt
+[0m17:29:56.752372 [info ] [MainThread]: Using profiles.yml file at /Users/temitayo/.dbt/profiles.yml
+[0m17:29:56.752648 [info ] [MainThread]: Using dbt_project.yml file at /Users/temitayo/Documents/My_docs/AE_Udemy_course/Practice/dbt_project.yml
+[0m17:29:56.753208 [info ] [MainThread]: adapter type: bigquery
+[0m17:29:56.753533 [info ] [MainThread]: adapter version: 1.7.7
+[0m17:29:56.753801 [info ] [MainThread]: Configuration:
+[0m17:29:56.754040 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m17:29:56.754263 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m17:29:56.754482 [info ] [MainThread]: Required dependencies:
+[0m17:29:56.754765 [debug] [MainThread]: Executing "git --help"
+[0m17:29:56.783065 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m17:29:56.783863 [debug] [MainThread]: STDERR: "b''"
+[0m17:29:56.784226 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m17:29:56.784510 [info ] [MainThread]: Connection:
+[0m17:29:56.784808 [info ] [MainThread]:   method: oauth
+[0m17:29:56.785040 [info ] [MainThread]:   database: snappy-gantry-419811
+[0m17:29:56.785261 [info ] [MainThread]:   execution_project: snappy-gantry-419811
+[0m17:29:56.785472 [info ] [MainThread]:   schema: dbt_tayo
+[0m17:29:56.785681 [info ] [MainThread]:   location: EU
+[0m17:29:56.785891 [info ] [MainThread]:   priority: interactive
+[0m17:29:56.786099 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m17:29:56.786303 [info ] [MainThread]:   impersonate_service_account: None
+[0m17:29:56.786511 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m17:29:56.786712 [info ] [MainThread]:   job_retries: 1
+[0m17:29:56.786914 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m17:29:56.787123 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m17:29:56.787329 [info ] [MainThread]:   timeout_seconds: 300
+[0m17:29:56.787532 [info ] [MainThread]:   client_id: None
+[0m17:29:56.787731 [info ] [MainThread]:   token_uri: None
+[0m17:29:56.787933 [info ] [MainThread]:   dataproc_region: None
+[0m17:29:56.788128 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m17:29:56.788331 [info ] [MainThread]:   gcs_bucket: None
+[0m17:29:56.788535 [info ] [MainThread]:   dataproc_batch: None
+[0m17:29:56.788887 [info ] [MainThread]: Registered adapter: bigquery=1.7.7
+[0m17:29:56.796042 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m17:29:56.797159 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m17:30:02.806850 [debug] [MainThread]: BigQuery adapter: Got an error when attempting to create a bigquery client: 'Runtime Error
+  
+  dbt encountered an error while trying to read your profiles.yml file.
+  
+  Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+  '
+[0m17:30:02.808303 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m17:30:02.809008 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m17:30:02.809558 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </Users/temitayo/Documents/My_docs/AE_Udemy_course/Practice/dbt_project.yml> not found
+
+[0m17:30:02.810205 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  Runtime Error
+    
+    dbt encountered an error while trying to read your profiles.yml file.
+    
+    Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+    
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m17:30:02.814082 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 6.9359236, "process_user_time": 2.76745, "process_kernel_time": 1.251789, "process_mem_max_rss": "186580992", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m17:30:02.814789 [debug] [MainThread]: Command `dbt debug` failed at 17:30:02.814640 after 6.94 seconds
+[0m17:30:02.815227 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m17:30:02.816074 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106cf0ec0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1071681a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12349f800>]}
+[0m17:30:02.816507 [debug] [MainThread]: Flushing usage events
+[0m17:37:38.570739 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11255e060>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11257e930>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11257e6c0>]}
+
+
+============================== 17:37:38.576074 | bb458758-66c7-4156-8fd5-b5b20e343ea8 ==============================
+[0m17:37:38.576074 [info ] [MainThread]: Running with dbt=1.7.11
+[0m17:37:38.576566 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/temitayo/.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m17:37:38.577121 [info ] [MainThread]: dbt version: 1.7.11
+[0m17:37:38.577473 [info ] [MainThread]: python version: 3.12.0
+[0m17:37:38.577729 [info ] [MainThread]: python path: /Users/temitayo/Documents/My_docs/AE_Udemy_course/Practice/dbt_env/bin/python3.12
+[0m17:37:38.577963 [info ] [MainThread]: os info: macOS-14.4.1-arm64-arm-64bit
+[0m17:37:39.612079 [info ] [MainThread]: Using profiles dir at /Users/temitayo/.dbt
+[0m17:37:39.612524 [info ] [MainThread]: Using profiles.yml file at /Users/temitayo/.dbt/profiles.yml
+[0m17:37:39.612786 [info ] [MainThread]: Using dbt_project.yml file at /Users/temitayo/Documents/My_docs/AE_Udemy_course/Practice/dbt_project.yml
+[0m17:37:39.613451 [info ] [MainThread]: adapter type: bigquery
+[0m17:37:39.613786 [info ] [MainThread]: adapter version: 1.7.7
+[0m17:37:39.614063 [info ] [MainThread]: Configuration:
+[0m17:37:39.614297 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m17:37:39.614522 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m17:37:39.614747 [info ] [MainThread]: Required dependencies:
+[0m17:37:39.615035 [debug] [MainThread]: Executing "git --help"
+[0m17:37:39.633241 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m17:37:39.634141 [debug] [MainThread]: STDERR: "b''"
+[0m17:37:39.634491 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m17:37:39.634777 [info ] [MainThread]: Connection:
+[0m17:37:39.635075 [info ] [MainThread]:   method: oauth
+[0m17:37:39.635316 [info ] [MainThread]:   database: snappy-gantry-419811
+[0m17:37:39.635536 [info ] [MainThread]:   execution_project: snappy-gantry-419811
+[0m17:37:39.635744 [info ] [MainThread]:   schema: dbt_tayo
+[0m17:37:39.635954 [info ] [MainThread]:   location: EU
+[0m17:37:39.636156 [info ] [MainThread]:   priority: interactive
+[0m17:37:39.636364 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m17:37:39.636567 [info ] [MainThread]:   impersonate_service_account: None
+[0m17:37:39.636768 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m17:37:39.636970 [info ] [MainThread]:   job_retries: 1
+[0m17:37:39.637166 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m17:37:39.637369 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m17:37:39.637589 [info ] [MainThread]:   timeout_seconds: 300
+[0m17:37:39.637789 [info ] [MainThread]:   client_id: None
+[0m17:37:39.637984 [info ] [MainThread]:   token_uri: None
+[0m17:37:39.638177 [info ] [MainThread]:   dataproc_region: None
+[0m17:37:39.638376 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m17:37:39.638569 [info ] [MainThread]:   gcs_bucket: None
+[0m17:37:39.638766 [info ] [MainThread]:   dataproc_batch: None
+[0m17:37:39.639111 [info ] [MainThread]: Registered adapter: bigquery=1.7.7
+[0m17:37:39.645212 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m17:37:39.646151 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m17:37:45.655258 [debug] [MainThread]: BigQuery adapter: Got an error when attempting to create a bigquery client: 'Runtime Error
+  
+  dbt encountered an error while trying to read your profiles.yml file.
+  
+  Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+  '
+[0m17:37:45.656336 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m17:37:45.656966 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m17:37:45.657431 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </Users/temitayo/Documents/My_docs/AE_Udemy_course/Practice/dbt_project.yml> not found
+
+[0m17:37:45.658104 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  Runtime Error
+    
+    dbt encountered an error while trying to read your profiles.yml file.
+    
+    Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+    
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m17:37:45.661427 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 7.1377916, "process_user_time": 2.880595, "process_kernel_time": 1.359253, "process_mem_max_rss": "184287232", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m17:37:45.662022 [debug] [MainThread]: Command `dbt debug` failed at 17:37:45.661891 after 7.14 seconds
+[0m17:37:45.662385 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m17:37:45.662835 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1047c0710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x14451ede0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x14640e840>]}
+[0m17:37:45.663427 [debug] [MainThread]: Flushing usage events
+[0m17:39:13.707821 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a1494f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a1928a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a192600>]}
+
+
+============================== 17:39:13.713275 | c85f8404-1aa6-4d82-9d94-0c42623ba26e ==============================
+[0m17:39:13.713275 [info ] [MainThread]: Running with dbt=1.7.11
+[0m17:39:13.713824 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/Users/temitayo/Documents/My_docs/AE_Udemy_course/Practice/logs', 'version_check': 'True', 'profiles_dir': '/Users/temitayo/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m17:39:13.714338 [info ] [MainThread]: dbt version: 1.7.11
+[0m17:39:13.714608 [info ] [MainThread]: python version: 3.12.0
+[0m17:39:13.714842 [info ] [MainThread]: python path: /Users/temitayo/Documents/My_docs/AE_Udemy_course/Practice/dbt_env/bin/python3.12
+[0m17:39:13.715063 [info ] [MainThread]: os info: macOS-14.4.1-arm64-arm-64bit
+[0m17:39:14.710856 [info ] [MainThread]: Using profiles dir at /Users/temitayo/.dbt
+[0m17:39:14.711333 [info ] [MainThread]: Using profiles.yml file at /Users/temitayo/.dbt/profiles.yml
+[0m17:39:14.711595 [info ] [MainThread]: Using dbt_project.yml file at /Users/temitayo/Documents/My_docs/AE_Udemy_course/Practice/dbt_project.yml
+[0m17:39:14.712126 [info ] [MainThread]: adapter type: bigquery
+[0m17:39:14.712365 [info ] [MainThread]: adapter version: 1.7.7
+[0m17:39:14.769490 [info ] [MainThread]: Configuration:
+[0m17:39:14.769940 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m17:39:14.770204 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m17:39:14.770439 [info ] [MainThread]: Required dependencies:
+[0m17:39:14.770737 [debug] [MainThread]: Executing "git --help"
+[0m17:39:14.797845 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m17:39:14.798841 [debug] [MainThread]: STDERR: "b''"
+[0m17:39:14.799289 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m17:39:14.799590 [info ] [MainThread]: Connection:
+[0m17:39:14.799910 [info ] [MainThread]:   method: oauth
+[0m17:39:14.800142 [info ] [MainThread]:   database: snappy-gantry-419811
+[0m17:39:14.800367 [info ] [MainThread]:   execution_project: snappy-gantry-419811
+[0m17:39:14.800620 [info ] [MainThread]:   schema: dbt_tayo
+[0m17:39:14.800830 [info ] [MainThread]:   location: EU
+[0m17:39:14.801038 [info ] [MainThread]:   priority: interactive
+[0m17:39:14.801257 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m17:39:14.801471 [info ] [MainThread]:   impersonate_service_account: None
+[0m17:39:14.801680 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m17:39:14.801882 [info ] [MainThread]:   job_retries: 1
+[0m17:39:14.802084 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m17:39:14.802291 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m17:39:14.802493 [info ] [MainThread]:   timeout_seconds: 300
+[0m17:39:14.802698 [info ] [MainThread]:   client_id: None
+[0m17:39:14.802902 [info ] [MainThread]:   token_uri: None
+[0m17:39:14.803100 [info ] [MainThread]:   dataproc_region: None
+[0m17:39:14.803298 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m17:39:14.803514 [info ] [MainThread]:   gcs_bucket: None
+[0m17:39:14.803715 [info ] [MainThread]:   dataproc_batch: None
+[0m17:39:14.804128 [info ] [MainThread]: Registered adapter: bigquery=1.7.7
+[0m17:39:14.810693 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m17:39:14.811753 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m17:39:20.819597 [debug] [MainThread]: BigQuery adapter: Got an error when attempting to create a bigquery client: 'Runtime Error
+  
+  dbt encountered an error while trying to read your profiles.yml file.
+  
+  Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+  '
+[0m17:39:20.820849 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m17:39:20.821647 [info ] [MainThread]: [31m1 check failed:[0m
+[0m17:39:20.822367 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  Runtime Error
+    
+    dbt encountered an error while trying to read your profiles.yml file.
+    
+    Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+    
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m17:39:20.828000 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 7.1648803, "process_user_time": 3.210549, "process_kernel_time": 1.044605, "process_mem_max_rss": "186662912", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m17:39:20.828694 [debug] [MainThread]: Command `dbt debug` failed at 17:39:20.828561 after 7.17 seconds
+[0m17:39:20.829086 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m17:39:20.829806 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104bd6a50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x128c86cf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1295bc530>]}
+[0m17:39:20.830210 [debug] [MainThread]: Flushing usage events
+[0m18:00:05.747041 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x119b5f470>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x119b7eab0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x119b7e780>]}
+
+
+============================== 18:00:05.752212 | b384524e-45d8-4930-b789-5384fd5697ca ==============================
+[0m18:00:05.752212 [info ] [MainThread]: Running with dbt=1.7.11
+[0m18:00:05.752715 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/temitayo/.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': '/Users/temitayo/Documents/My_docs/AE_Udemy_course/Practice/logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m18:00:05.753187 [info ] [MainThread]: dbt version: 1.7.11
+[0m18:00:05.753432 [info ] [MainThread]: python version: 3.12.0
+[0m18:00:05.753660 [info ] [MainThread]: python path: /Users/temitayo/Documents/My_docs/AE_Udemy_course/Practice/dbt_env/bin/python3.12
+[0m18:00:05.753875 [info ] [MainThread]: os info: macOS-14.4.1-arm64-arm-64bit
+[0m18:00:06.863496 [info ] [MainThread]: Using profiles dir at /Users/temitayo/.dbt
+[0m18:00:06.863978 [info ] [MainThread]: Using profiles.yml file at /Users/temitayo/.dbt/profiles.yml
+[0m18:00:06.864238 [info ] [MainThread]: Using dbt_project.yml file at /Users/temitayo/Documents/My_docs/AE_Udemy_course/Practice/dbt_project.yml
+[0m18:00:06.864812 [info ] [MainThread]: adapter type: bigquery
+[0m18:00:06.865185 [info ] [MainThread]: adapter version: 1.7.7
+[0m18:00:06.922113 [info ] [MainThread]: Configuration:
+[0m18:00:06.922561 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m18:00:06.922826 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m18:00:06.923065 [info ] [MainThread]: Required dependencies:
+[0m18:00:06.923364 [debug] [MainThread]: Executing "git --help"
+[0m18:00:06.960251 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m18:00:06.961146 [debug] [MainThread]: STDERR: "b''"
+[0m18:00:06.961483 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m18:00:06.961767 [info ] [MainThread]: Connection:
+[0m18:00:06.962060 [info ] [MainThread]:   method: oauth
+[0m18:00:06.962285 [info ] [MainThread]:   database: snappy-gantry-419811
+[0m18:00:06.962505 [info ] [MainThread]:   execution_project: snappy-gantry-419811
+[0m18:00:06.962716 [info ] [MainThread]:   schema: dbt_tayo
+[0m18:00:06.963015 [info ] [MainThread]:   location: EU
+[0m18:00:06.963364 [info ] [MainThread]:   priority: interactive
+[0m18:00:06.963639 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m18:00:06.963850 [info ] [MainThread]:   impersonate_service_account: None
+[0m18:00:06.964196 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m18:00:06.964554 [info ] [MainThread]:   job_retries: 1
+[0m18:00:06.964817 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m18:00:06.965141 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m18:00:06.965395 [info ] [MainThread]:   timeout_seconds: 300
+[0m18:00:06.965619 [info ] [MainThread]:   client_id: None
+[0m18:00:06.965834 [info ] [MainThread]:   token_uri: None
+[0m18:00:06.966042 [info ] [MainThread]:   dataproc_region: None
+[0m18:00:06.966246 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m18:00:06.966454 [info ] [MainThread]:   gcs_bucket: None
+[0m18:00:06.966658 [info ] [MainThread]:   dataproc_batch: None
+[0m18:00:06.967055 [info ] [MainThread]: Registered adapter: bigquery=1.7.7
+[0m18:00:06.973351 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m18:00:06.974282 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m18:00:12.982604 [debug] [MainThread]: BigQuery adapter: Got an error when attempting to create a bigquery client: 'Runtime Error
+  
+  dbt encountered an error while trying to read your profiles.yml file.
+  
+  Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+  '
+[0m18:00:12.983849 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m18:00:12.984515 [info ] [MainThread]: [31m1 check failed:[0m
+[0m18:00:12.985109 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  Runtime Error
+    
+    dbt encountered an error while trying to read your profiles.yml file.
+    
+    Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+    
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m18:00:12.990345 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 7.2895603, "process_user_time": 3.018762, "process_kernel_time": 1.312572, "process_mem_max_rss": "187629568", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m18:00:12.991217 [debug] [MainThread]: Command `dbt debug` failed at 18:00:12.991063 after 7.29 seconds
+[0m18:00:12.991644 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m18:00:12.992425 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102a22a50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12fd19d00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x144860cb0>]}
+[0m18:00:12.992821 [debug] [MainThread]: Flushing usage events
+[0m18:03:14.817564 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10865e0c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10867e8a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10867e600>]}
+
+
+============================== 18:03:14.822900 | ea52c956-cf35-42e2-86a8-2f8388650ecb ==============================
+[0m18:03:14.822900 [info ] [MainThread]: Running with dbt=1.7.11
+[0m18:03:14.823406 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/Users/temitayo/Documents/My_docs/AE_Udemy_course/Practice/logs', 'debug': 'False', 'profiles_dir': '/Users/temitayo/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt debug', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m18:03:14.823897 [info ] [MainThread]: dbt version: 1.7.11
+[0m18:03:14.824144 [info ] [MainThread]: python version: 3.12.0
+[0m18:03:14.824368 [info ] [MainThread]: python path: /Users/temitayo/Documents/My_docs/AE_Udemy_course/Practice/dbt_env/bin/python3.12
+[0m18:03:14.824588 [info ] [MainThread]: os info: macOS-14.4.1-arm64-arm-64bit
+[0m18:03:15.801861 [info ] [MainThread]: Using profiles dir at /Users/temitayo/.dbt
+[0m18:03:15.802306 [info ] [MainThread]: Using profiles.yml file at /Users/temitayo/.dbt/profiles.yml
+[0m18:03:15.802563 [info ] [MainThread]: Using dbt_project.yml file at /Users/temitayo/Documents/My_docs/AE_Udemy_course/Practice/dbt_project.yml
+[0m18:03:15.803142 [info ] [MainThread]: adapter type: bigquery
+[0m18:03:15.803471 [info ] [MainThread]: adapter version: 1.7.7
+[0m18:03:15.859925 [info ] [MainThread]: Configuration:
+[0m18:03:15.860362 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m18:03:15.860766 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m18:03:15.861091 [info ] [MainThread]: Required dependencies:
+[0m18:03:15.861455 [debug] [MainThread]: Executing "git --help"
+[0m18:03:15.903368 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m18:03:15.904204 [debug] [MainThread]: STDERR: "b''"
+[0m18:03:15.904545 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m18:03:15.904849 [info ] [MainThread]: Connection:
+[0m18:03:15.905156 [info ] [MainThread]:   method: oauth
+[0m18:03:15.905388 [info ] [MainThread]:   database: snappy-gantry-419811
+[0m18:03:15.905611 [info ] [MainThread]:   execution_project: snappy-gantry-419811
+[0m18:03:15.905839 [info ] [MainThread]:   schema: dbt_tayo
+[0m18:03:15.906047 [info ] [MainThread]:   location: EU
+[0m18:03:15.906256 [info ] [MainThread]:   priority: interactive
+[0m18:03:15.906465 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m18:03:15.906687 [info ] [MainThread]:   impersonate_service_account: None
+[0m18:03:15.906903 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m18:03:15.907101 [info ] [MainThread]:   job_retries: 1
+[0m18:03:15.907300 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m18:03:15.907502 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m18:03:15.907699 [info ] [MainThread]:   timeout_seconds: 300
+[0m18:03:15.907905 [info ] [MainThread]:   client_id: None
+[0m18:03:15.908104 [info ] [MainThread]:   token_uri: None
+[0m18:03:15.908297 [info ] [MainThread]:   dataproc_region: None
+[0m18:03:15.908495 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m18:03:15.908688 [info ] [MainThread]:   gcs_bucket: None
+[0m18:03:15.908887 [info ] [MainThread]:   dataproc_batch: None
+[0m18:03:15.909254 [info ] [MainThread]: Registered adapter: bigquery=1.7.7
+[0m18:03:15.917028 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m18:03:15.917971 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m18:03:21.926651 [debug] [MainThread]: BigQuery adapter: Got an error when attempting to create a bigquery client: 'Runtime Error
+  
+  dbt encountered an error while trying to read your profiles.yml file.
+  
+  Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+  '
+[0m18:03:21.927846 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m18:03:21.928677 [info ] [MainThread]: [31m1 check failed:[0m
+[0m18:03:21.929416 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  Runtime Error
+    
+    dbt encountered an error while trying to read your profiles.yml file.
+    
+    Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+    
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m18:03:21.934143 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 7.1631, "process_user_time": 2.993998, "process_kernel_time": 1.23619, "process_mem_max_rss": "186925056", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m18:03:21.934912 [debug] [MainThread]: Command `dbt debug` failed at 18:03:21.934748 after 7.16 seconds
+[0m18:03:21.935339 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m18:03:21.936200 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10838ba40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x15bfd52e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x15bf6a9f0>]}
+[0m18:03:21.936604 [debug] [MainThread]: Flushing usage events
+[0m18:10:44.710224 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x119d5eab0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x119d7e7e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x119d7e540>]}
+
+
+============================== 18:10:44.715354 | 597f2379-9a20-4a2e-9bbf-3739d7e0bc9c ==============================
+[0m18:10:44.715354 [info ] [MainThread]: Running with dbt=1.7.11
+[0m18:10:44.715887 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/temitayo/.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': '/Users/temitayo/Documents/My_docs/AE_Udemy_course/Practice/logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt debug', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m18:10:44.716382 [info ] [MainThread]: dbt version: 1.7.11
+[0m18:10:44.716634 [info ] [MainThread]: python version: 3.12.0
+[0m18:10:44.716859 [info ] [MainThread]: python path: /Users/temitayo/Documents/My_docs/AE_Udemy_course/Practice/dbt_env/bin/python3.12
+[0m18:10:44.717072 [info ] [MainThread]: os info: macOS-14.4.1-arm64-arm-64bit
+[0m18:10:45.717405 [info ] [MainThread]: Using profiles dir at /Users/temitayo/.dbt
+[0m18:10:45.717847 [info ] [MainThread]: Using profiles.yml file at /Users/temitayo/.dbt/profiles.yml
+[0m18:10:45.718109 [info ] [MainThread]: Using dbt_project.yml file at /Users/temitayo/Documents/My_docs/AE_Udemy_course/Practice/dbt_project.yml
+[0m18:10:45.718627 [info ] [MainThread]: adapter type: bigquery
+[0m18:10:45.718864 [info ] [MainThread]: adapter version: 1.7.7
+[0m18:10:45.773874 [info ] [MainThread]: Configuration:
+[0m18:10:45.774308 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m18:10:45.774561 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m18:10:45.774806 [info ] [MainThread]: Required dependencies:
+[0m18:10:45.775118 [debug] [MainThread]: Executing "git --help"
+[0m18:10:45.810295 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m18:10:45.811156 [debug] [MainThread]: STDERR: "b''"
+[0m18:10:45.811485 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m18:10:45.811789 [info ] [MainThread]: Connection:
+[0m18:10:45.812083 [info ] [MainThread]:   method: oauth
+[0m18:10:45.812322 [info ] [MainThread]:   database: snappy-gantry-419811
+[0m18:10:45.812557 [info ] [MainThread]:   execution_project: snappy-gantry-419811
+[0m18:10:45.812770 [info ] [MainThread]:   schema: dbt_tayo
+[0m18:10:45.812977 [info ] [MainThread]:   location: EU
+[0m18:10:45.813179 [info ] [MainThread]:   priority: interactive
+[0m18:10:45.813394 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m18:10:45.813756 [info ] [MainThread]:   impersonate_service_account: None
+[0m18:10:45.814106 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m18:10:45.814354 [info ] [MainThread]:   job_retries: 1
+[0m18:10:45.814584 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m18:10:45.814803 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m18:10:45.815014 [info ] [MainThread]:   timeout_seconds: 300
+[0m18:10:45.815225 [info ] [MainThread]:   client_id: None
+[0m18:10:45.815431 [info ] [MainThread]:   token_uri: None
+[0m18:10:45.815634 [info ] [MainThread]:   dataproc_region: None
+[0m18:10:45.815837 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m18:10:45.816041 [info ] [MainThread]:   gcs_bucket: None
+[0m18:10:45.816242 [info ] [MainThread]:   dataproc_batch: None
+[0m18:10:45.816638 [info ] [MainThread]: Registered adapter: bigquery=1.7.7
+[0m18:10:45.823356 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m18:10:45.824261 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m18:10:51.832859 [debug] [MainThread]: BigQuery adapter: Got an error when attempting to create a bigquery client: 'Runtime Error
+  
+  dbt encountered an error while trying to read your profiles.yml file.
+  
+  Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+  '
+[0m18:10:51.835139 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m18:10:51.835930 [info ] [MainThread]: [31m1 check failed:[0m
+[0m18:10:51.836581 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  Runtime Error
+    
+    dbt encountered an error while trying to read your profiles.yml file.
+    
+    Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+    
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m18:10:51.840410 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 7.1760955, "process_user_time": 3.126797, "process_kernel_time": 1.124182, "process_mem_max_rss": "183255040", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m18:10:51.841126 [debug] [MainThread]: Command `dbt debug` failed at 18:10:51.840991 after 7.18 seconds
+[0m18:10:51.841492 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m18:10:51.842210 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104e12a50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x146f1b410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x146e0c380>]}
+[0m18:10:51.842600 [debug] [MainThread]: Flushing usage events
+[0m18:13:30.587548 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106d9a6c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106dbaa50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106dba7b0>]}
+
+
+============================== 18:13:30.592581 | 7cf53e9c-5966-4647-863b-6fc982cc8cf8 ==============================
+[0m18:13:30.592581 [info ] [MainThread]: Running with dbt=1.7.11
+[0m18:13:30.593080 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': '/Users/temitayo/Documents/My_docs/AE_Udemy_course/Practice/logs', 'profiles_dir': '/Users/temitayo/.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m18:13:30.593565 [info ] [MainThread]: dbt version: 1.7.11
+[0m18:13:30.593808 [info ] [MainThread]: python version: 3.12.0
+[0m18:13:30.594029 [info ] [MainThread]: python path: /Users/temitayo/Documents/My_docs/AE_Udemy_course/Practice/dbt_env/bin/python3.12
+[0m18:13:30.594240 [info ] [MainThread]: os info: macOS-14.4.1-arm64-arm-64bit
+[0m18:13:31.588412 [info ] [MainThread]: Using profiles dir at /Users/temitayo/.dbt
+[0m18:13:31.588851 [info ] [MainThread]: Using profiles.yml file at /Users/temitayo/.dbt/profiles.yml
+[0m18:13:31.589106 [info ] [MainThread]: Using dbt_project.yml file at /Users/temitayo/Documents/My_docs/AE_Udemy_course/Practice/dbt_project.yml
+[0m18:13:31.589654 [info ] [MainThread]: adapter type: bigquery
+[0m18:13:31.589976 [info ] [MainThread]: adapter version: 1.7.7
+[0m18:13:31.644566 [info ] [MainThread]: Configuration:
+[0m18:13:31.645033 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m18:13:31.645305 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m18:13:31.645547 [info ] [MainThread]: Required dependencies:
+[0m18:13:31.645852 [debug] [MainThread]: Executing "git --help"
+[0m18:13:31.677107 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m18:13:31.677997 [debug] [MainThread]: STDERR: "b''"
+[0m18:13:31.678345 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m18:13:31.678629 [info ] [MainThread]: Connection:
+[0m18:13:31.678933 [info ] [MainThread]:   method: oauth
+[0m18:13:31.679172 [info ] [MainThread]:   database: snappy-gantry-419811
+[0m18:13:31.679406 [info ] [MainThread]:   execution_project: snappy-gantry-419811
+[0m18:13:31.679629 [info ] [MainThread]:   schema: dbt_tayo
+[0m18:13:31.679831 [info ] [MainThread]:   location: EU
+[0m18:13:31.680038 [info ] [MainThread]:   priority: interactive
+[0m18:13:31.680247 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m18:13:31.680468 [info ] [MainThread]:   impersonate_service_account: None
+[0m18:13:31.680671 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m18:13:31.680874 [info ] [MainThread]:   job_retries: 1
+[0m18:13:31.681083 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m18:13:31.681289 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m18:13:31.681492 [info ] [MainThread]:   timeout_seconds: 300
+[0m18:13:31.681708 [info ] [MainThread]:   client_id: None
+[0m18:13:31.681918 [info ] [MainThread]:   token_uri: None
+[0m18:13:31.682119 [info ] [MainThread]:   dataproc_region: None
+[0m18:13:31.682320 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m18:13:31.682524 [info ] [MainThread]:   gcs_bucket: None
+[0m18:13:31.682720 [info ] [MainThread]:   dataproc_batch: None
+[0m18:13:31.683055 [info ] [MainThread]: Registered adapter: bigquery=1.7.7
+[0m18:13:31.689856 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m18:13:31.691106 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m18:13:31.697099 [debug] [MainThread]: On debug: select 1 as id
+[0m18:13:37.557339 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=snappy-gantry-419811&j=bq:EU:45da7f0a-07b0-4875-87c9-42649563960c&page=queryresults
+[0m18:13:39.071027 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m18:13:39.071903 [info ] [MainThread]: [32mAll checks passed![0m
+[0m18:13:39.077461 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": true, "command_wall_clock_time": 8.534173, "process_user_time": 2.976482, "process_kernel_time": 1.334683, "process_mem_max_rss": "190791680", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m18:13:39.078738 [debug] [MainThread]: Command `dbt debug` succeeded at 18:13:39.078346 after 8.54 seconds
+[0m18:13:39.079233 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m18:13:39.079575 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x13aa520c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106a9d040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x13a1fe000>]}
+[0m18:13:39.079959 [debug] [MainThread]: Flushing usage events
